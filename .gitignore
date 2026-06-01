@@ -10,6 +10,7 @@
 !.env.example
 .DS_Store
 next-env.d.ts
+*.tsbuildinfo
 # Local tooling / editor config
 /.claude
 /.vscode
