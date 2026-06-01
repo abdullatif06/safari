@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "seed": "node scripts/seed.mjs"
+    "seed": "node scripts/seed.mjs",
+    "seed:extra": "node scripts/seed-extra.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.10.3",
