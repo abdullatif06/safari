@@ -90,7 +90,7 @@ export default function Navbar() {
         <div className="flex items-center gap-2">
           {user ? (
             /* Avatar dropdown */
-            <div ref={dropdownRef} className="relative hidden sm:block">
+            <div ref={dropdownRef} className="relative hidden md:block">
               <button
                 onClick={() => setDropdownOpen((v) => !v)}
                 aria-label="Account menu"
@@ -151,7 +151,7 @@ export default function Navbar() {
           ) : (
             <Link
               href="/login"
-              className="hidden text-sm font-medium text-ink-soft transition-colors hover:text-ink sm:inline-flex sm:items-center"
+              className="hidden text-sm font-medium text-ink-soft transition-colors hover:text-ink md:inline-flex md:items-center"
             >
               {t("signIn")}
             </Link>

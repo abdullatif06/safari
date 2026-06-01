@@ -29,7 +29,6 @@ export default function Hero() {
           className="h-full w-full object-cover"
         >
           <source src="/videos/hero.mp4" type="video/mp4" />
-          <source src="/videos/hero.webm" type="video/webm" />
         </video>
         {/* Legibility scrim */}
         <div className="absolute inset-0 bg-ink/60" />
