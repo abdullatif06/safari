@@ -1,7 +1,8 @@
 import { ImageResponse } from "next/og";
 
 // Branded social-share card (LinkedIn, WhatsApp, X, Facebook).
-export const runtime = "edge";
+// No edge runtime: this lets Next statically generate the PNG at build time
+// and serve it cached, instead of rendering on every request.
 export const alt = "Saifi — Discover free summer events across Jordan";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
